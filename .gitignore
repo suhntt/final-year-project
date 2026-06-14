@@ -1,0 +1,37 @@
+# Logs
+*.log
+logs
+npm-debug.log*
+
+# Dependencies
+node_modules/
+WEB_AND_BACKEND/scms-backend/node_modules/
+WEB_AND_BACKEND/scms-admin/node_modules/
+
+# Build & Cache files
+dist/
+build/
+bin/
+out/
+.gradle/
+ANDROID_APP/.gradle/
+ANDROID_APP/app/build/
+ANDROID_APP/.kotlin/
+
+# IDE & OS Configuration
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local environment & Secrets
+local.properties
+.env
+.env*.local
+serviceAccountKey.json
+WEB_AND_BACKEND/scms-backend/serviceAccountKey.json
